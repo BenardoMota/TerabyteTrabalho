@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #ebebeb;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 5vh;
+}
+
+.div-pc-para-todos {
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.img-pc-para-todos {
+    width: 60%;
+    height: 83%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-pc-para-todos span {
+    position: absolute;
+    top: 110%;
+    font-weight: bold;
+}
+
+.div-home-office {
+    background-image: url(../img/pc-para-todos/home--office.webp);
+}
+
+.div-pc-gamer {
+    background-image: url(../img/pc-para-todos/pc--gamer.webp);
+}
+
+.h2-depart {
+    padding-top: 50px;
+}
+
+.div-imgs-depart {
+    margin-top: 5vh;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.div-img-depart {
+    width: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #fff;
+    border-top: 10px #fff solid;
+    border-bottom: 10px #fff solid;
+}
+
+.div-img-depart span {
+    position: absolute;
+    top: 120%;
+    display: flex;
+}
+
+.img-1-depart {
+    background-image: url(../imgTeraByte/departamentos/kit-upgrade.webp);
+}
+
+.img-2-depart {
+    background-image: url(../imgTeraByte/departamentos/pc-gamer.webp);
+}
+
+.img-3-depart {
+    background-image: url(../imgTeraByte/departamentos/hardware.jpg);
+}
+
+.img-4-depart {
+    background-image: url(../imgTeraByte/departamentos/perifericos.webp);
+}
+
+.img-5-depart {
+    background-image: url(../imgTeraByte/departamentos/gabinetes.webp);
+}
+
+.img-6-depart {
+    background-image: url(../imgTeraByte/departamentos/refrigeracao.webp);
+}
+
+.section-mais-vendidos {
+    margin: 10% 0;
+}
+
+.div-produtos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1vw;
+}
+
+.div-produto {
+    background-color: #fff;
+    padding: 8px;
+    /* padding: 10px 20px; */
+}
+
+.div-img-produto {
+    width: 100%;
+    height: 15vw;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-bottom: #ebebeb solid 1px;
+}
+
+#img-produto-1 {
+    background-image: url('../img/processador.jpg');
+}
+
+.p-descri-produto {
+    font-size: .8em;
+    margin-bottom: 1vw;
+}
+
+.p-valor,
+.p-parcelado {
+    font-size: .75em;
+    color: #666;
+}
+
+.p-a-vista {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #2aaa3e;
+}
+
+.span-a-vista {
+    font-size: 0.7em;
+}
+
+#img-produto-2 {
+    background-image: url('../img/cadeira-gamer.jpg');
+}
+
+.div-imgs-marcas {
+    margin-top: 5vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.div-img-marcas {
+    width: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #fff;
+    border-top: 10px #fff solid;
+    border-bottom: 10px #fff solid;
+}
+
+.img-1-marcas {
+    background-image: url(../img/marcas/Superframe-logo.jpg);
+}
+
+.img-2-marcas {
+    background-image: url(../img/marcas/Doutor-Office.jpg);
+}
+
+.img-3-marcas {
+    background-image: url(../img/marcas/Gamer-Ninja.jpg);
+}
+
+.img-4-marcas {
+    background-image: url(../img/marcas/Leonidas.jpg);
+}
+
+.img-5-marcas {
+    background-image: url(../img/marcas/nvidia-logo.jpg);
+}
+
+.img-6-marcas {
+    background-image: url(../img/marcas/amd-logo.jpg);
+}
+.img-7-marcas {
+    background-image: url(../img/marcas/asus.jpg);
+}
+.img-8-marcas {
+    background-image: url(../img/marcas/intel-logo.jpg);
+}
+
+
+footer {
+    height: 200px;
+    background-color: #212121;
+}
+
+
+
+
+@media(max-width: 1024px) {
+    main {
+        margin: 5vw 10vw;
+    }
+
+    .img-pc-para-todos {
+        width: 45%;
+        height: 54%;
+    }
+
+    .div-img-depart {
+        height: 15vw;
+    }
+
+    .div-produtos-mais-vendidos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}
+
+@media(min-width: 1024px) {
+    main {
+        margin: 3vw 20vw;
+    }
+
+    .div-img-depart {
+        height: 10vw;
+    }
+}
